@@ -1,0 +1,51 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Security-related files
+**/credentials.*
+**/*credential*
+**/*secret*
+**/*password*
+**/*api_key*
+**/*apikey* 
