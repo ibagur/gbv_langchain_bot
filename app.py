@@ -17,11 +17,12 @@ import os
 # Make sure to set OPENAI_TOKEN environment variable before running the app
 # Example: export OPENAI_TOKEN=your-api-key
 # DO NOT hardcode API keys in the source code
+# os.environ["OPENAI_API_KEY"] = os.environ["OPENAI_TOKEN"]
 
 # Define the LLM chat model
 #model = 'gpt-3.5-turbo'
 model = 'gpt-3.5-turbo-16k'
-#model = 'gpt-4'
+#model = 'gpt-4o-mini'
 token_limit = 4000 if model == 'gpt-3.5-turbo' else 16000
 memory_token_limit = token_limit//2
 temperature = 0
